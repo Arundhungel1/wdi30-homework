@@ -25,7 +25,7 @@ All 3 subway lines intersect at Union Square, but there are no other intersectio
   28th street stop on the 6 line, so you'll have to differentiate this when you name your stops in the arrays.)
 Tell the user the number of stops AND the stops IN ORDER that they will pass through or change at.
 */
-/* var mta = {
+var mta = {
     lineN: ["Times Square", "34th", "28th", "23rd", "Union Square", "8th"],
     lineL: ["8th", "6th", "Union Square", "3rd", "1st"],
     line6: ["Grand Central", "33rd", "28th", "23rd", "Union Square", "Astor Place"]
@@ -78,4 +78,3 @@ var tripStops = function(firstStop, lastStop, line) {
 }
 
 console.log(tripStops("34th", "28th", "lineN"));
-*/
